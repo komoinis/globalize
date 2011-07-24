@@ -1,4 +1,6 @@
-# Globalize
+# Globalize-R
+
+Fork to fit to requirejs, which won't eat lib folders
 
 A JavaScript library for globalization and localization. Enables complex
 culture-aware number and date parsing and formatting, including the raw

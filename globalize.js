@@ -8,6 +8,8 @@
  * http://jquery.org/license
  */
 
+define(function(require, exports, module) {
+
 (function( window, undefined ) {
 
 var Globalize,
@@ -1562,3 +1564,5 @@ Globalize.culture = function( cultureSelector ) {
 };
 
 }( this ));
+
+}

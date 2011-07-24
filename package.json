@@ -22,9 +22,9 @@
 		"Boris Moore <borismoore@gmail.com> (http://www.borismoore.com)"
 	],
 	"files": [
-		"./lib/cultures"
+		"./cultures"
 	],
-	"main": "./lib/globalize.js",
+	"main": "./globalize.js",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/jquery/globalize.git"
@@ -33,7 +33,7 @@
 		"web": "http://github.com/jquery/globalize/issues"
 	},
 	"directories": {
-		"lib": "./lib",
+		"lib": "./",
 		"examples": "./examples"
 	},
 	"licenses": [
