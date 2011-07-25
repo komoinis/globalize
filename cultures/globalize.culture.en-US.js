@@ -11,6 +11,8 @@
  * Translation: bugs found in this file need to be fixed in the generator
  */
 
+define(function(require, exports, module) {
+
 (function( window, undefined ) {
 
 var Globalize;
@@ -19,7 +21,7 @@ if ( typeof require !== "undefined"
 	&& typeof exports !== "undefined"
 	&& typeof module !== "undefined" ) {
 	// Assume CommonJS
-	Globalize = require( "globalize" );
+	Globalize = require( "globalize/globalize" );
 } else {
 	// Global variable
 	Globalize = window.Globalize;
@@ -30,4 +32,5 @@ Globalize.addCultureInfo( "en-US", "default", {
 	englishName: "English (United States)"
 });
 
-}( this ));
+}( this )); 
+ });

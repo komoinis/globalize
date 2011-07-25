@@ -10,10 +10,11 @@
 
 define(function(require, exports, module) {
 
+var Globalize;
+
 (function( window, undefined ) {
 
-var Globalize,
-	// private variables
+var // private variables
 	regexHex,
 	regexInfinity,
 	regexParseFloat,
@@ -1565,4 +1566,6 @@ Globalize.culture = function( cultureSelector ) {
 
 }( this ));
 
-}
+return Globalize
+}); // define - requirejs wrapper
+
